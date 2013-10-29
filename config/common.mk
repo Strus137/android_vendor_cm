@@ -86,8 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/cm/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/cm/prebuilt/common/bin/50-cm.sh:system/addon.d/50-cm.sh \
-    vendor/cm/prebuilt/common/bin/99-backup.sh:system/addon.d/99-backup.sh \
-    vendor/cm/prebuilt/common/etc/backup.conf:system/etc/backup.conf \
     vendor/cm/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 endif
 
