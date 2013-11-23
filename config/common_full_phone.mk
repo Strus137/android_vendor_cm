@@ -3,9 +3,9 @@ $(call inherit-product, vendor/cm/config/common_full.mk)
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=Orion.ogg \
-    ro.config.notification_sound=Argon.ogg \
-    ro.config.alarm_alert=Hassium.ogg
+    ro.config.ringtone=Backroad.ogg \
+    ro.config.notification_sound=CyanMail.ogg \
+    ro.config.alarm_alert=Fermium.ogg
 
 PRODUCT_PACKAGES += \
   Mms
